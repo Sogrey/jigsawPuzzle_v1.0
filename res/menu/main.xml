@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/backtogame"
+        android:orderInCategory="70"
+        android:title="@string/backtogame"/>
+    
+    <item
+        android:id="@+id/selectagain"
+        android:orderInCategory="75"
+        android:title="@string/select_again"/>
+    <item
+        android:id="@+id/help"
+        android:orderInCategory="80"
+        android:title="@string/help"/>
+    <item
+        android:id="@+id/option"
+        android:orderInCategory="90"
+        android:title="@string/option"/>
+    <item
+        android:id="@+id/backtomain"
+        android:orderInCategory="100"
+        android:title="@string/backtomain"/>
+
+</menu>

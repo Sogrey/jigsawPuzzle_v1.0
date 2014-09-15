@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">拼图游戏</string>
+    <string name="action_settings">设置</string>
+    <color name="white">#ffffffff</color>
+    <string name="aboutMe"><h1><b><span style="color: red;">拼图游戏</span></b></h1>\n版\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020
+		        本：v1.0\n\n制\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020作：Sogrey\n客\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020服：路博逊(义务客服)\n客服电话：（029）88888888\n网\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020址：
+        <i>www.Sogrey.com</i>\nEmil:<i>408270653@qq.com</i></string>
+    <string name="version">v1.0</string>
+    <string name="pause">游戏暂停中，按返回键返回游戏</string>
+    <string name="copyright">Copyright © 2014 Sogrey All Rights Reserved.</string>
+    <string name="back">返回上一界面</string>
+    <string name="start">开始游戏</string>
+    <string name="list">排行榜</string>
+    <string name="option">游戏设置</string>
+    <string name="exit">退出游戏</string>
+    <string name="help">游戏帮助</string>
+    <string name="about">关于游戏</string>
+    <color name="black">#ff000000</color>
+    <string name="mode">请选择游戏模式</string>
+    <string name="level">请选择难度级别</string>
+    <string name="mode_move">移动模式</string>
+    <string name="mode_exchange">对调模式</string>
+    <string name="backtogame">返回游戏</string>
+    <string name="backtomain">返回主菜单</string>
+    <string name="select_again">重新选图</string>
+    <string name="win_mode">游戏模式：</string>
+    <string name="win_level">难度级别：</string>
+    <string name="win_steps">步\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020数：</string>
+    <string name="win_time">时\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020间：</string>
+    <string name="win_name">请输入你的大名：</string>
+    <string name="win_select_mode_and_level">如需查询其他游戏模式和难度级别，请点击菜单键[menu]选择</string>
+    <string name="order_steps">按步数排序</string>
+    <string name="order_time">按时间排序</string>
+    
+
+</resources>

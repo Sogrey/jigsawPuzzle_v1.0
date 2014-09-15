@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main1" >
+
+    <TextView
+        android:id="@+id/select_mode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:text="@string/mode"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <ImageView
+        android:id="@+id/imageView_mode_exchange_button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/select_mode"
+        android:layout_marginLeft="26dp"
+        android:layout_marginTop="121dp"
+        android:contentDescription="@string/mode_exchange"
+        android:src="@drawable/mode_exchange_button1" />
+
+    <ImageView
+        android:id="@+id/imageView_mode_move_button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imageView_mode_exchange_button1"
+        android:layout_below="@+id/imageView_mode_exchange_button1"
+        android:layout_marginTop="99dp"
+        android:contentDescription="@string/mode_move"
+        android:src="@drawable/mode_move_button1" />
+    
+    <ListView
+             android:id="@+id/listMode" 
+             android:layout_width="wrap_content" 
+             android:layout_height="wrap_content"
+             android:scrollbars="vertical"/>
+    
+
+</RelativeLayout>

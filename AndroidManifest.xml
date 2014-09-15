@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.feicui.jigsawpuzzle"
+    android:versionCode="2"
+    android:versionName="1.1" >
+
+    <uses-sdk
+        android:minSdkVersion="7"
+        android:targetSdkVersion="19"
+        />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/game_ico"
+        android:label="@string/app_name"
+        android:logo="@drawable/game_ico"
+        android:theme="@style/AppTheme" 
+        android:description="@string/aboutMe">
+        <!-- 首页 -->
+        <activity
+            android:name="com.feicui.jigsawpuzzle.MainActivity"
+            android:label="@string/app_name" >
+
+        </activity>
+        <!-- 暂停 -->
+        <activity android:name="com.feicui.jigsawpuzzle.PauseActivity" >
+        </activity>
+        <!-- 关于 -->
+        <activity android:name="com.feicui.jigsawpuzzle.AboutMeActivity" >
+        </activity>
+         <!-- 设置 -->
+        <activity android:name="com.feicui.jigsawpuzzle.OptionActivity" >
+        </activity>
+        <!-- 帮助 -->
+        <activity android:name="com.feicui.jigsawpuzzle.HelpActivity" >
+        </activity>
+        <!-- 排行 -->
+        <activity android:name="com.feicui.jigsawpuzzle.ListActivity" >
+        </activity>
+        <!-- 开始 -->
+        <activity android:name="com.feicui.jigsawpuzzle.game.SelectModeActivity" >
+        </activity>
+        <!-- main -->
+        <activity android:name="com.feicui.jigsawpuzzle.logoview.Main" >     
+           <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!-- Logo -->
+        <activity 
+            android:name="com.feicui.jigsawpuzzle.logoview.Logo">
+        </activity>
+         <!-- 选择图片和难度等级 -->
+        <activity 
+            android:name="com.feicui.jigsawpuzzle.game.SelectPictureAndLevel">
+        </activity>
+        <!-- 游戏场景 -->
+        <activity 
+            android:name="com.feicui.jigsawpuzzle.game.GameSceneActivity">
+        </activity> 
+        <!-- Score排行-->
+        <activity 
+            android:name="com.feicui.jigsawpuzzle.ScoreListActivity">
+        </activity> 
+        
+    </application>
+
+</manifest>
